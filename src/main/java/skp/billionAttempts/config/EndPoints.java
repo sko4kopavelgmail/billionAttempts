@@ -1,7 +1,7 @@
 package skp.billionAttempts.config;
 
 public enum EndPoints {
-    ADMIN_ENDPOINTS("/api/admin/**"), LOGIN_ENDPOINTS("/api/auth/login"), TEACHER_ENDPOINT("api/teacher/**");
+    ADMIN_ENDPOINTS("/api/admin/**"), AUTH_ENDPOINTS("/api/auth/**"), TEACHER_ENDPOINT("api/teacher/**");
 
     private String urlPattern;
 

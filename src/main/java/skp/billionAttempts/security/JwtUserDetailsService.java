@@ -6,7 +6,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import skp.billionAttempts.model.User;
+import skp.billionAttempts.model.user.base_user.User;
 import skp.billionAttempts.security.jwt.JwtUser;
 import skp.billionAttempts.security.jwt.JwtUserFactory;
 import skp.billionAttempts.service.UserService;

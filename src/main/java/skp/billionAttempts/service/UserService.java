@@ -1,6 +1,6 @@
 package skp.billionAttempts.service;
 
-import skp.billionAttempts.model.User;
+import skp.billionAttempts.model.user.base_user.User;
 
 import java.util.List;
 
